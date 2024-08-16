@@ -5,8 +5,8 @@ DIS(Dichotomous Image Segmentation)モデルである[qianyu-dlut/MVANet](https:
 > [!NOTE]
 > ONNX変換に際して、Adaptive Average Pooling を Average Pooling で代替しています<br>
 > その結果、オリジナルモデルと比べ、推論速度や精度が劣る可能性があります
-
-![image](https://github.com/user-attachments/assets/0317d3ea-16e0-4d64-87ff-57f8f98e3930)
+> 
+![image](https://github.com/user-attachments/assets/626b20d5-3e85-473d-b96f-ea7895e2ceb6)
 
 # Requirement 
 * OpenCV 4.5.3.56 or later
