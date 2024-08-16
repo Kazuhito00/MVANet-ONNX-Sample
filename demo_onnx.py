@@ -74,7 +74,7 @@ def main() -> None:
     onnx_session = onnxruntime.InferenceSession(
         model_path,
         providers=[
-            # 'CUDAExecutionProvider',
+            'CUDAExecutionProvider',
             'CPUExecutionProvider',
         ],
     )
